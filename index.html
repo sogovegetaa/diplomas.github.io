@@ -1,12 +1,8 @@
-<?php error_reporting(0);
-		include './admin/config.php';
-		$config = getConfig();
-		$page = 'index';
-		?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<?php if (!empty($config)) include "./admin/include-head.php" ?>
+		
 	<meta charset="UTF-8">
 	<title>Auto Complex</title>
 	<link rel="stylesheet" href="css/main.css">
@@ -17,7 +13,7 @@
 	<link rel="stylesheet" href="libs/owlcarousel2/assets/owl.theme.default.css">
 </head>
 <body>
-	<?php if (!empty($config)) include "./admin/include-body-start.php" ?>
+	
 
 	<nav class="top">
 		<div class="container">
@@ -331,6 +327,6 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="libs/owlcarousel2/owl.carousel.min.js"></script>
 	<script src="js/js.js"></script>
-	<?php if (!empty($config)) include "./admin/include-body-end.php" ?>
+	
 </body>
 </html>
